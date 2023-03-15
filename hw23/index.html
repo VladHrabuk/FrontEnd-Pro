@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW23</title>
+    <link rel="stylesheet" href="./fonts/font.css">
+    <script type="module" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <form name="registrate" class="wrapper">
+                <h1>Sign up</h1>
+                <div>
+                    <label for="username" class="form">Username:</label>
+                    <input type="text" id="username" class="form" name="enter-username"
+                        placeholder="Enter your username">
+                    <span class="message form" data-for="enter-username"></span>
+                </div>
+                <div>
+                    <label for="email" class="form">Email:</label>
+                    <input type="email" id="email" class="form" name="enter-email" placeholder="Enter your email">
+                    <span class="message form" data-for="enter-email"></span>
+                </div>
+                <div>
+                    <label for="password" class="form">Password:</label>
+                    <input type="password" id="password" class="form" name="enter-password"
+                        placeholder="Enter your password">
+                    <span class="message form" data-for="enter-password"></span>
+                </div>
+                <div>
+                    <label for="re-password" class="form">Confirm Password:</label>
+                    <input type="password" id="re-password" class="form" name="reenter-password"
+                        placeholder="Reenter your password">
+                    <span class="message form" data-for="reenter-password"></span>
+                </div>
+
+                <button class="send-form form" type="submit">SIGN UP</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

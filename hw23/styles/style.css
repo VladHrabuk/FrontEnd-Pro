@@ -1,0 +1,93 @@
+:root {
+  --text-header: #09090a;
+  --text-color: #5a5a5c;
+  --button-color: #24a3ff;
+  --error-color: #d44250;
+  --correct-color: #37b063;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+html {
+  font-family: "Roboto-Regular", sans-serif;
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  margin: 50px auto 0 auto;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 3px 3px rgba(85, 85, 85, 0.1);
+}
+
+.wrapper {
+  padding: 25px;
+}
+
+h1 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  text-align: center;
+  color: var(--text-header);
+}
+
+label {
+  padding: 10px 0;
+}
+
+input {
+  width: 290px;
+  height: 35px;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 20px;
+  padding-left: 10px;
+  border: 1.5px solid var(--text-header);
+  box-shadow: 0px 0px 2px var(--text-color);
+}
+
+input:focus {
+  box-shadow: 0 0 5px var(--button-color);
+  outline-color: var(--button-color);
+}
+
+button {
+  margin-top: 10px;
+  width: 300px;
+  background: var(--button-color);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+::placeholder {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.error {
+  border: 2px solid var(--error-color);
+  color: var(--error-color);
+}
+
+.message {
+  color: var(--error-color);
+  font-size: 15px;
+  line-height: 20px;
+}
+.correct {
+  border: 2px solid var(--correct-color);
+}

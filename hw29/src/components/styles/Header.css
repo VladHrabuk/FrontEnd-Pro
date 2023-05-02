@@ -1,0 +1,11 @@
+.navigation {
+  padding: 20px 250px;
+  background-color: rgba(129, 138, 145, 0.1);
+  border-bottom: 1px solid #adadad;
+}
+
+a {
+  color: #185b99;
+  font-size: 24px;
+  font-weight: 700;
+}
